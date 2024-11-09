@@ -1,0 +1,279 @@
+.container {
+  border-top: 0.5px solid rgb(212, 212, 212);
+  .list-content {
+    width: 1170px;
+    align-items: center;
+    margin: 0 auto;
+    .content1 {
+      display: flex;
+      .sidebar {
+        border-right: 0.5px solid rgb(212, 212, 212);
+        width: 217px;
+        padding-top: 40px;
+        ul li {
+          padding: 8px 0;
+          display: flex;
+          justify-content: space-between;
+          padding-right: 16px;
+        }
+        ul li a {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+      }
+      img {
+        padding: 40px 0 0 45px;
+      }
+    }
+    .content2 {
+      padding: 57px 0 70px 0;
+      border-bottom: 0.5px solid rgb(212, 212, 212);
+
+      h1 {
+        padding: 20px 0 60px 0;
+      }
+      .menu {
+        display: flex;
+        justify-content: space-between;
+        .icon-menu {
+          border: 0.5px solid rgb(212, 212, 212);
+          padding: 25px 52px;
+          .icon-menu-svg {
+            text-align: center;
+          }
+          a {
+            display: flex;
+            justify-content: center;
+          }
+          &:hover {
+            background-color: #db4444;
+          }
+        }
+      }
+    }
+    .content3 {
+      padding-top: 70px;
+      .list-bestSale {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+        justify-content: space-between;
+        .best-sale {
+          .hv-pro {
+            display: none;
+            bottom: 0;
+            padding: 10px 95px;
+            position: absolute;
+            background-color: #000000;
+            a {
+              color: #fff;
+            }
+          }
+          .image-product {
+            position: relative;
+            width: 270px;
+            height: 250px;
+            padding: 52px 0;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            &:hover {
+              .hv-pro {
+                display: block;
+              }
+            }
+            .image {
+              display: flex;
+              align-items: center;
+            }
+            .icon {
+              display: flex;
+              flex-direction: column;
+              position: absolute;
+              right: 0;
+              padding-right: 20px;
+              padding-top: 30px;
+              top: 0;
+              button {
+                background-color: transparent;
+                padding: 5px 0;
+              }
+            }
+          }
+          .star {
+            display: flex;
+            align-items: center;
+            padding-top: 4px;
+            span {
+              padding: 3px 0 0 8px;
+              opacity: 0.5;
+            }
+          }
+          .price {
+            color: #db4444;
+          }
+          del {
+            opacity: 0.5;
+          }
+          .detail {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px;
+            h3 {
+              padding: 16px 0 8px 0;
+            }
+          }
+        }
+      }
+      .title-content3 {
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+          padding: 20px 0 60px 0;
+        }
+        button {
+          width: 150px;
+          height: 56px;
+          color: #fff;
+          background-color: #db4444;
+          border-radius: 4px;
+        }
+      }
+    }
+    .banner {
+      padding: 140px 0 71px 0;
+    }
+    .content4 {
+      padding-top: 70px;
+      .list-bestSale {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
+        justify-content: space-between;
+        .best-sale {
+          .hv-pro {
+            display: none;
+            bottom: 0;
+            padding: 10px 95px;
+            position: absolute;
+            background-color: #000000;
+            a {
+              color: #fff;
+            }
+          }
+
+          .image-product {
+            position: relative;
+            width: 270px;
+            height: 250px;
+            padding: 52px 0;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            &:hover {
+              .hv-pro {
+                display: block;
+              }
+            }
+            .image {
+              display: flex;
+              align-items: center;
+            }
+            .icon {
+              display: flex;
+              flex-direction: column;
+              position: absolute;
+              right: 0;
+              padding-right: 20px;
+              padding-top: 30px;
+              top: 0;
+              button {
+                background-color: transparent;
+                padding: 5px 0;
+              }
+            }
+          }
+          .star {
+            display: flex;
+            align-items: center;
+            padding-top: 4px;
+            span {
+              padding: 3px 0 0 8px;
+              opacity: 0.5;
+            }
+          }
+          .price {
+            color: #db4444;
+          }
+          del {
+            opacity: 0.5;
+          }
+          .detail {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px;
+            h3 {
+              padding: 16px 0 8px 0;
+            }
+          }
+        }
+      }
+
+      .title-content3 {
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+          padding: 20px 0 60px 0;
+        }
+        button {
+          width: 150px;
+          height: 56px;
+          color: #fff;
+          background-color: #db4444;
+          border-radius: 4px;
+        }
+      }
+      .btn-product {
+        display: flex;
+        justify-content: center;
+        padding: 60px 0 140px 0;
+        button {
+          width: 150px;
+          height: 56px;
+          color: #fff;
+          background-color: #db4444;
+          border-radius: 4px;
+        }
+      }
+    }
+    .banner {
+      padding: 140px 0 71px 0;
+    }
+
+    .content5 {
+      .services {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 140px;
+      }
+      .arrival {
+        display: flex;
+        justify-content: space-between;
+        .item-arrival {
+          display: flex;
+          justify-content: space-between;
+          padding-top: 25px;
+        }
+      }
+      h1 {
+        padding: 20px 0 60px 0;
+      }
+    }
+  }
+}

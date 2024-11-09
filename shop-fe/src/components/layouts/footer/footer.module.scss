@@ -1,0 +1,47 @@
+footer {
+  background: #000000;
+  margin-top: 140px;
+  color: #fafafa;
+  a[href] {
+    color: #fafafa;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    .item {
+      padding: 44px;
+      .icon-app{
+        display: flex;
+        justify-content: space-around;
+      }
+      h3{
+        padding-bottom: 24px;
+      }
+      h4{
+        padding-bottom: 24px;
+      }
+      div {
+        padding: 8px 0;
+      }
+      .ip-ft {
+        display: flex;
+        align-items: center;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        input{
+            background-color: #000000;
+            padding: 0 8px;
+            color: #fff;
+        }
+        svg{
+            margin-right: 8px;
+        }
+      }
+    }
+  }
+  .copyright {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 24px 0;
+  }
+}
